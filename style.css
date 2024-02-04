@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.company img {
+  transform: rotate(90deg);
+  height: 85px;
+  width: 146px;
+  position: absolute;
+  right: -31px;
+  top: -7px;
+}
+.main {
+  border: 1px solid black;
+  position: relative;
+  margin: 50px;
+  padding-bottom: 50px;
+}
+.company button {
+  padding: 10px 70px;
+  border: none;
+  background-color: #80007c94;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 100px;
+}
+.company-para {
+  margin-top: 20px;
+  line-height: 22px;
+}
+.company-line {
+  color: #8000807a;
+  font-size: 1.2rem;
+  margin-top: 30px;
+}
+
+/* Team section */
+.team img {
+  width: 16%;
+}
+.team-one {
+  display: flex;
+}
+.team-two {
+  display: flex;
+  margin-top: 50px;
+}
+.team-two img {
+  width: 25%;
+}
+.team h3 {
+  margin: 20px 0;
+  font-size: 1.5rem;
+}
+.team button {
+  padding: 10px 70px;
+  border: none;
+  background-color: #80007c94;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.title {
+  color: #80007c94;
+  font-style: italic;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Development Team */
+
+.team-one {
+  display: flex;
+}
+.team-two {
+  display: flex;
+  margin-top: 50px;
+}
+.dev-bookmark {
+  transform: rotate(270deg);
+  position: absolute;
+  left: 0;
+  width: 120px;
+}
+.dev-team .team-one img {
+  width: 35%;
+}
+.team-two img {
+  width: 25%;
+}
+.dev-team h3 {
+  margin: 20px 0;
+  font-size: 1.5rem;
+}
+.dev-team button {
+  padding: 10px 70px;
+  border: none;
+  background-color: #80007c94;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+/* Sales and Marketing */
+.sale-bookmark {
+  transform: rotate(90deg);
+  position: absolute;
+  /* left: 0; */
+  width: 120px;
+  right: 0;
+}
+.last-book {
+  position: absolute;
+  left: 0;
+  transform: rotate(270deg);
+  bottom: -34px;
+  width: 130px;
+  height: 130px;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .team-one,
+  .team-two {
+    flex-wrap: wrap;
+  }
+  .team-one img {
+    width: 20%;
+  }
+  .team-two img {
+    width: 35%;
+  }
+  .team .team-one img {
+    width: 30%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .company img {
+    width: 60px;
+    right: 11px;
+    top: -29px;
+  }
+  .company-para {
+    font-size: 0.8rem;
+  }
+  .company-line {
+    font-size: 1rem;
+  }
+  .team button {
+    font-size: 0.8rem;
+  }
+  .dev-bookmark {
+    width: 80px;
+    top: 1270px;
+  }
+  .dev-team button {
+    font-size: 0.8rem;
+  }
+  .sale-bookmark {
+    width: 48px;
+    bottom: 918px;
+  }
+  .last-book {
+    width: 80px;
+    left: 9px;
+    bottom: -31px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .dev-bookmark {
+    width: 58px;
+    top: 1244px;
+  }
+}
